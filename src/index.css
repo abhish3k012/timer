@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* import React, { useState, useEffect } from "react";
+
+function App() {
+  const [second, setSecond] = useState(0);
+  const [run, setRun] = useState(false);
+  let timer;
+
+  useEffect(() => {
+    if (run) {
+      timer = setInterval(() => {
+        setSecond((prevSecond) => prevSecond + 1);
+      }, 1000);
+    }
+
+    return () => {
+      clearInterval(timer);
+    };
+  }, [run]);
+
+  const handleStart = () => {
+    if (!run) {
+      setRun(true);
+    }
+  };
+
+  const handleStop = () => {
+    setRun(false);
+    setSecond(0);
+  };
+
+  const handleResume = () => {
+    if (!run) {
+      setRun(true);
+    }
+  };
+
+  const formattedTime = `${Math.floor(second / 60)}:${second % 60}`;
+
+  return (
+    <div className="App">
+      <h1>Countdown Timer</h1>
+      <p>{formattedTime}</p>
+      {!run && (
+        <button onClick={handleStart}>Start</button>
+      )}
+      {run && (
+        <button onClick={handleStop}>Stop</button>
+      )}
+      {!run && second > 0 && (
+        <button onClick={handleResume}>Resume</button>
+      )}
+    </div>
+  );
+}
+
+export default App; */
